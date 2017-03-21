@@ -1,5 +1,5 @@
 # Exile.IslaAbramia
-Mission and Server files w/ Easy Traders and Loot Spawns
+Mission and Server files w/ Easy Traders and Loot Spawn Building Positions. Default Loot Tables
 
 This is a shared effort and credit will be given. 
 
@@ -9,6 +9,8 @@ Required Mods
 - Cup Core - https://steamcommunity.com/sharedfiles/filedetails/?id=583496184 or http://cup-arma3.org/
 - Isla Abramia: http://www.armaholic.com/page.php?id=30616 or https://steamcommunity.com/sharedfiles/filedetails/?id=648775794
               
+Information
+==============
 The Exile_Server_Config.pbo has already been edited for this map. You will only need to edit the config.cpp if you want rcon, turn off halo, adj weather etc.
  
 Building Loot Positions are already added but not tested for floating loot, if you notice any loot floating let me know in exilemod.com forum with the coordinates so i may correct.
