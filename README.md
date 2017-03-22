@@ -20,9 +20,18 @@ to compile loot if your using other mods.
 
 The Map Markers and Single Trader with objects and trader data was provided by cantkillphantom - http://www.exilemod.com/profile/89301-cantkillphantom/
 
-Easy trader was provided by Red Ned - http://www.exilemod.com/profile/41243-red_ned/ and https://github.com/redned70/Trader-Mod amd incorported into this releaes by myself.
+Easy trader was provided by Red Ned - http://www.exilemod.com/profile/41243-red_ned/ and https://github.com/redned70/Trader-Mod amd incorported into this release by myself.
 
-I have made the mission files so they are easy to edit. simply edit the hpp files.
+I have made the mission files so they are easy to edit. simply edit the hpp files included:
+- config.cpp
+- CfgRemoteExec.hpp
+- CfgExileCustomCode.hpp
+- CfgMusicPlaylist.hpp
+- CfgMusicTracks.hpp
+- CfgFunctions.hpp
+- CfgRscTitles.hpp
+- CfgHints.cpp
+- CfgNetworkMessages.hpp
 
 CfgMusicPlaylist.hpp you can add classnames of custom music tracks, or remove default exile tracks if not wanted.
 CfgMusicTracks.hpp you can add your own tracks, I have left examples of 3, so you can see how the format would be.
@@ -36,6 +45,11 @@ then edit CfgMusicPlaylist.hpp
 	Intro[] = {"ExileTrack02","ExileTrack03","intro1"};
   
  duplicate for combat and ambient if wanted, just note, that if you add music to your mission file, it will become very large.
+ 
+ I have tested this and it does load, it does snow when you are over snow texture.
+
+ 
+
 
 
 
